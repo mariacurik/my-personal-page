@@ -1,0 +1,87 @@
+
+
+    /* day 2 */
+
+    /* fonts */
+
+    .plus-jakarta-sans {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+
+    /* fonts */
+
+    #logo {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    #page-wraper {
+        border: 1px solid red;
+    }
+
+    header { border: 1px solid green;
+    display : flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    align-items: center;
+    }
+
+    .nav-links {
+        font-family: 'Plus Jakarta Sans';
+    }
+    .nav-links li a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+    }  
+
+    #loge {
+        border: 1px solid  yellow
+    }
+    nav, button  {
+        border: 1px solid blue
+    }
+.nav-links li  {
+margin: 20px;
+}
+.nav-links {
+    font-family: ;
+}
+
+button{
+    background: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.page-section h1{
+    color: black;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+}
+.page-section {
+    margin: 50px 0;
+}
+.page-section h1 {
+    color: black;
+    font-size:22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 27px;
+    text-align: center;
+}
+.content {
+    color: black;
+    font-size: 56px;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    text-align: left;
+    text-underline-position: below black solid ;
+}
