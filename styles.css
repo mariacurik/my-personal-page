@@ -27,7 +27,7 @@
         border: 1px solid red;
     }
 
-    header { border: 1px solid green;
+    header { 
     display : flex;
     justify-content: space-between;
     padding: 0px 50px 0px 50px;
@@ -47,7 +47,7 @@
         border: 1px solid  yellow
     }
     nav, button  {
-        border: 1px solid blue
+        
     }
 .nav-links li  {
 margin: 20px;
@@ -62,15 +62,115 @@ button{
     font-style: italic;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Adds space above the button */
+    border-style: solid;
+}
+
+.cta-button:hover {
+    background-color:black;
+    color:white;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+
+
+
+
+img {
+    display: block; /* Ensures the image behaves as a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures images do not exceed their container's width */
+    height: auto; /* Allows images to maintain their aspect ratio */
+}
+
+
+/* styles.css */
+
+/* Centering the heading */
+h1 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+/* Styling the cards */
+ul.content {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul.content li {
+    width: 325px;
+    height: 454px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+ul.content li img {
+    width: 325px;
+    height: 280px;
+    border-radius: 10px 10px 10px 10px; /* Rounded corners on top */
+}
+
+ul.content li h2 {
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+ul.content li h3 {
+    margin: 5px 0;
+    padding: 20px;
+    padding-top: 0px;
+    font-size: 1rem;
+    color: black;
+}
+
+
+.container {
+    text-align: center;
+}
+
 .page-section h1{
     color: black;
     font-size: 22px;
     line-height: 27px;
     text-align: center;
+    margin-bottom: 20px;
+
 }
 .page-section {
     margin: 50px 0;
 }
+
+.main-content {
+    text-align: center;
+}
+
+.main-content > section:first-child {
+    margin-bottom: 20px;
+}
+
 .page-section h1 {
     color: black;
     font-size:22px;
@@ -84,4 +184,159 @@ button{
     font-family:"Plus Jakarta Sans", sans-serif;
     text-align: left;
     text-underline-position: below black solid ;
+}
+.page-section h2 {
+    color: black;
+    font-size:22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: left;
+    font-style: italic;
+}
+.page-section h3{
+    color: black;
+    font-size:18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: left;
+    font-style: normal;
+}
+
+/* styling the stages */
+
+.container {
+    max-width: 100%; /* Set container to full width of viewport */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E4E4E4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.stages {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.stages li {
+    width: 100%; /* Make each stage box as wide as the container */
+    padding: 10px;
+    background-color: #E4E4E4;
+    position: relative; /* Needed for line positioning */
+    
+    margin-bottom: 20px; /* Space between each stage */
+    text-align: left; /* Align text content left */
+    border-radius:inherit;
+    border-style:none;
+}
+
+.stages h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black; /* Line at the bottom of h2 */
+     /* Space below the line */
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.stages h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.stages h2 a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight:normal;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000;
+}
+
+.stages h2 span {
+    margin-right: 10px;
+}
+.stages h3 {
+    font-size: 1rem;
+    color: black;
+}
+
+.image-container {
+    text-align: center; /* Center aligns the content */
+    margin-top: 20px; /* Adds space above the image and text */
+}
+.image-caption {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 86px;
+    font-style: italic; /* Makes the text italic */
+    color: #333; /* Sets the text color */
+    margin-bottom: 10px; /* Adds space below the caption */
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.image-description {
+    font-size: 20px; /* Adjusts the font size */
+    color:black; /* Sets the text color */
+    margin-top: 5px; /* Adds space above the description */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: italic;
+}
+.full-width-image {
+    display: block; /* Ensures proper rendering and spacing */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 1040px;
+    height: 360px;
+    border-radius: 24px;
+}
+
+
+/* get in touch section*/
+
+/* General styles */
+.get-in-touch-section {
+    background-color:white;
+    padding: 80px 0;
+    text-align: center;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-style: italic;
+}
+
+
+
+.section-description {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #666;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
 }
