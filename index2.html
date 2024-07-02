@@ -1,59 +1,108 @@
-    <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <meta name="vieweport" content="width=device-width, initial-scale=1.0">
 
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <title>MY FIRST PAGE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <header class="Plus Jakarta Sans">
+            <div id="logo">
+                maria curik
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">about me</a></li>
+                    <li>my works</li>
+                    <li>work progress</li>
+                </ul>
+            </nav>
+            <button class="cta-button">Contact me</button>
+        </header>
 
-
-                <title>  MY FIRST PAGE</title>
-                <link rel="stylesheet" href="styles.css">
-            </head>
-     <body>
-           <div id="page-wrapper">
-            <header class="Plus Jakarta Sans">
-                <div id="logo">
-                    maria curik
+        <div class="main-content">
+            <section class="page-section">
+                <div class="image-container">
+                    <img src="pictures/Geoffrey Johnson.jpeg" alt="Geoffrey Johnson" class="full-width-image">
+                    <p class="image-caption">maria curik - designer
+                    <p class="image-description">Abstract art is not the creation of another reality but the true vision of reality</p>
+                    <button class="cta-button">Let's get in touch</button>
                 </div>
-                <nav>
-                    <ul class="nav-links">
+            </section>
+        </div>
+
+            <section class="page-section">
+                <nav> 
+                    <h1>my works</h1>
+                    <ul class="content">  
                         <li>
-                            <a href="#"> about me </a>
+                            <img src="pictures/Hypnotic Fusion of Portraits by Antonio Mora.jpeg" style="width: 325px; height: 280px;">
+                            <h2>Project Alpha</h2>
+                            <h3>My first project</h3>
                         </li>
-                        <li>my works</li>
-                        <li>work progress</li>
+                        <li>
+                            <img src="pictures/Black and White Abstract 1.jpeg" style="width: 325px; height: 280px;">
+                            <h2>Project Beta</h2>
+                            <h3>My first project</h3>
+                        </li>
+                        <li>
+                            <img src="pictures/just another masterpiece.jpeg" style="width: 325px; height: 280px;">
+                            <h2>Project Gamma</h2>
+                            <h3>My first project</h3>
+                        </li>
                     </ul>
                 </nav>
-                <button>Contact me </button>
-            </header>
-
-            <div class="main-content">
-                <section class="page-section">             
-                    <img src="pictures/Geoffrey Johnson.jpeg">
-                </section>
-                <section class="page-section">
-                    <h1>my works</h1>
-                
-                </section>
-                <section class="page-section">
-                    <h1>Work process</h1>
-                    <div>
-                        <header class="content">
-                            <ul class="nav-links">
-                                <li>
-                                    Briefing
-                                </li>
-                                <li >
-                                    1
-                                </li>
-                            </ul>
-
-                        </header>
-                    </div>
-                </section>
+            </section>
+    
+        
+            <div class="container">
+                <h1>Work Process</h1>
+                <ul class="stages">
+                    <li>
+                        <h2><span>Briefing</span> <a href="">1</a></h2>
+                        <h3>An act or instance of giving precise instructions or essential information</h3>
+                    </li>
+                    <li>
+                        <h2><span>Analysis</span> <a href="">2</a></h2>
+                        <h3>Doing a careful analysis of the problem</h3>
+                    </li>
+                    <li>
+                        <h2><span>Prototype</span> <a href="">3</a></h2>
+                        <h3>The original model, a sample on which to base future designs</h3>
+                    </li>
+                    <li>
+                        <h2><span>Design</span> <a href="">4</a></h2>
+                        <h3>Making decisions about something that is being built or created</h3>
+                    </li>
+                </ul>
             </div>
-    </body>
-      </html>
+                
+
+            <div class="get-in-touch-section">
+                <div class="container">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-description">send me the message</p>
+                    <form action="#" method="post" class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+                        </ul>
+                    </header>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
